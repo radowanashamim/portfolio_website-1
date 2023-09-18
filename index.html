@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio  </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+       <a href="#" class="logo">.Radio</a>
+       <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+       </ul>
+    </header>
+    <section>
+        <img src="robo.png" id="robo">
+        <h2 id="text">Hi there!</h2>
+        <a href="#" id="btn">Download CV</a>
+        <img src="" id="">
+    </section>                                      
+    <div class="sec">
+        <h2>About me</h2>
+        <p> Hello this is Radowana. </p>
+    </div>
+   <script>
+    let robo=document.getElementById('robo');
+    let text=document.getElementById('text');
+    let btn=document.getElementById('btn');
+    let header=document.getElementById('header');
+
+    window.addEventListener('scroll', function() {
+    let value = window.scrollY;
+    robo.style.top = value * 1.25 + 'px';
+    text.style.marginRight=value * 4+'px';
+    text.style.marginTop=value * 1.50+'px';
+    btn.style.marginTop=value * 1.50+'px';
+    header.style.Top=value * 0.5+'px';});
+   </script>
+   <footer>
+    <a href="https://www.facebook.com/yourusername" target="_blank">
+        <img src="facebook-logo.png" alt="Facebook Logo">
+    </a>
+    <a href="https://www.instagram.com/yourusername" target="_blank">
+        <img src="instagram-logo.png" alt="Instagram Logo">
+    </a>
+    <a href="https://www.twitter.com/yourusername" target="_blank">
+        <img src="twitter-logo.png" alt="Twitter Logo">
+    </a>
+    <a href="https://www.linkedin.com/in/yourusername" target="_blank">
+        <img src="linkedin-logo.png" alt="LinkedIn Logo">
+    </a>
+</footer>
+</body>
+</html>
