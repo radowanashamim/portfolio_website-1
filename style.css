@@ -131,3 +131,126 @@ footer a img {
     height: 30px;
     margin: 0 10px;
 }
+#Skills {
+    padding: 50px;
+    background: #7597de;
+    
+}
+
+#Skills ul {
+    list-style-type: disc; 
+    padding-left: 20px; 
+}
+
+#Skills ul li {
+    font-size: 2em;
+    color: #fff;
+    background: #8fa9e0;
+    padding:5px 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+    transition: background 0.3s;
+
+
+}
+.skills-list {
+    float: left;
+    width: 60%; 
+}
+
+
+.image-container {
+    float: right;
+    width: 40%;
+    transform: rotate(5deg); }
+    .image-container img {
+        max-width: 100%;
+        height: auto; }
+
+
+        .top-right {
+            position: absolute;
+            top: 60px; 
+            right: 40px; 
+         
+        }
+        
+        .top-right img {
+            max-width: 100%;
+            width: 100%;
+            height: auto;
+            background-color: transparent;
+        }
+        
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    
+    
+    }
+    .animated-list li {
+        animation: fadeIn 1.5s ease-in-out;
+        opacity: 0; 
+    }
+    
+    .animated-list li:nth-child(1) {
+        animation: fadeIn 1.5s ease-in-out 2s; 
+        animation-fill-mode: forwards; 
+    }
+    
+    .animated-list li:nth-child(2) {
+        animation: fadeIn 1.5s ease-in-out 3s; 
+        animation-fill-mode: forwards;
+    }
+    
+    .animated-list li:nth-child(3) {
+        animation: fadeIn 1.5s ease-in-out 4s; 
+        animation-fill-mode: forwards; 
+    }
+    
+    .animated-list li:nth-child(4) {
+        animation: fadeIn 1.5s ease-in-out 5s; 
+        animation-fill-mode: forwards; 
+    }
+    
+    .animated-list li:nth-child(5) {
+        animation: fadeIn 1.5s ease-in-out 6s; 
+        animation-fill-mode: forwards;
+    }
+    
+    .animated-list li:nth-child(6) {
+        animation: fadeIn 1.5s ease-in-out 7s; 
+        animation-fill-mode: forwards; 
+    }
+    .skill-item:hover {
+        
+         background:#8fa9e0; }
+#Contact {
+    padding: 50px;
+    background: #7597de;
+}
+
+#Contact h2 {
+    font-size: 2em;
+    color: #2b1055;
+}
+
+#Contact form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+
+#Contact form button {
+    padding: 10px;
+    background-color: #2b1055;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
