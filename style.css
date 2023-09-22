@@ -297,7 +297,13 @@ section{
     justify-content: center;
     flex-direction: column;
   }
+  .experience-title{
+    color:black;
   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
   .article-container {
     display: flex;
     text-align: initial;
