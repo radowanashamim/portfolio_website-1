@@ -388,10 +388,16 @@ section{
   /* FOOTER SECTION */
   
   footer {
-    height: 26vh;
-    margin: 0 1rem;
-  }
-  
-  footer p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-  }
+    padding: 20px; /* Add padding for spacing */
+}
+
+/* Style the icons */
+.icon {
+    margin: 0 10px; /* Add horizontal margin between icons for spacing */
+    cursor: pointer;
+    height: 30px; /* Adjust the height as needed */
+}
